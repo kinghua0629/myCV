@@ -16,10 +16,11 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v4
       - name: cv
-        uses: dante-ev/latex-action@latest
+        uses: xu-cheng/latex-action@v4
         with:
           root_file: ${{ env.FILE }}
           working_directory: ${{ env.DIR }}
+          latexmk_use_xelatex: true
       - name: move
         run: mkdir -p github_artifacts && mv ${{ env.DIR }}/${{ env.FILE }}.pdf ./github_artifacts/
       - name: Upload pdf as artifact
