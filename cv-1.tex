@@ -1,0 +1,289 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	The MIT License (MIT)
+%
+%	Copyright (c) 2021 Jitin Nair
+%
+%	Permission is hereby granted, free of charge, to any person obtaining a copy
+%	of this software and associated documentation files (the "Software"), to deal
+%	in the Software without restriction, including without limitation the rights
+%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%	copies of the Software, and to permit persons to whom the Software is
+%	furnished to do so, subject to the following conditions:
+%	
+%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+%	THE SOFTWARE.
+%	
+%
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT DEFINITION
+%----------------------------------------------------------------------------------------
+
+% article class because we want to fully customize the page and not use a cv template
+\documentclass[a4paper,12pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	FONT
+%----------------------------------------------------------------------------------------
+
+% % fontspec allows you to use TTF/OTF fonts directly
+% \usepackage{fontspec}
+% \defaultfontfeatures{Ligatures=TeX}
+
+% % modified for ShareLaTeX use
+% \setmainfont[
+% SmallCapsFont = Fontin-SmallCaps.otf,
+% BoldFont = Fontin-Bold.otf,
+% ItalicFont = Fontin-Italic.otf
+% ]
+% {Fontin.otf}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip} 	
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright\color{linkcolour}}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{RGB}{0 127 255}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+
+%debug page outer frames
+%\usepackage{showframe}
+
+
+% job listing environments
+\newenvironment{jobshort}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+    \end{tabularx}
+    }
+    {
+    }
+
+\newenvironment{joblong}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+    \end{tabularx}
+    \begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
+    }
+    {
+    \end{itemize}
+    \end{minipage}    
+    }
+
+
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty} 
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+% \begin{tabularx}{\linewidth}{ @{}X X@{} }
+% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
+% \raisebox{-0.05\height}\faGithub\ username \ | \
+% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
+% \end{tabularx}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Ziwen Hua} \\[7.5pt]
+\href{https://github.com/kinghua0629}{\raisebox{-0.05\height}\faGithub\ kinghua0629} \ $|$ \ 
+\href{https://linkedin.com/in/ziwen-hua-625a6a3b4}{\raisebox{-0.05\height}\faLinkedin\ Ziwen Hua} \ $|$ \ 
+\href{https://oscarhua0629.com}{\raisebox{-0.05\height}\faGlobe \ oscarhua0629.com} \\ 
+\href{mailto:oscarhua0629@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ oscarhua0629@gmail.com} \ $|$ \ 
+\href{tel:+8618930417525}{\raisebox{-0.05\height}\faMobile \ +86 189 3041 7525} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+09/2022 - 06/2025 & \textbf{Shanghai No.2 High School} \\ & Grade 10-Grade 12, High School Diploma \\
+
+09/2018 - 06/2022 & \textbf{Shanghai Southwest Model High School, Shanghai, China } \\ & Grade 6-Grade 9 \\ 
+
+2022 & Class 12th Some Board \hfill  (Grades) \\
+
+2021 & Class 10th Some Board \hfill  (Grades) \\
+\end{tabularx}
+
+\section{Research \& Projects}
+\noindent \textbf{Research on Preparation of Rapid Cooling Equipment} \hfill 09/2023 - 06/2024 \\ \textbf{Shanghai Jiaotong University}
+\begin{itemize}
+    \item Read papers, learned college physics and industrial cooling technology, and studied methods for physics research.
+    \item Produced a mini semiconductor refrigerator in the lab and wrote a paper. 
+\end{itemize}
+\noindent \textbf{Application of Generative Pre-trained Transformer Models} \hfill 09/2023 - 06/2024 
+\begin{itemize}
+    \item Researched the use of modern AI models in daily life, learned Python programming and knowledge of advanced mathematics (i.e. Bayesian Rule).
+    \item Trained a small AI model to translate Chinese into English.
+\end{itemize}
+\noindent \textbf{Survey on Community Care on Shanghai Metro} \hfill 09/2022 - 06/2023
+\begin{itemize}
+    \item Interviewed passengers, conducted questionnaire survey, analyzed questionnaires, and prepared survey reports.
+    \item Proposed improvements for human-centered urban rail development.
+\end{itemize}
+
+\section{Extracurricular Activities}
+\noindent \textbf{Student Union Discipline Committee, Officer} \hfill 09/2022 - 06/2024
+\begin{itemize}
+    \item Oversaw the discipline of c.800 students in the evening self-study session to ensure minimal distraction; prepared a weekly discipline assessment report.
+\end{itemize}
+\noindent \textbf{School TV Station, Photographer \& Video Recorder} \hfill 09/2022 - 06/2024
+\begin{itemize}
+    \item Worked as the only drone operator, recorded major events for the school's official WeChat website and publicity brochures.
+\end{itemize}
+\noindent \textbf{Agricultural Technology Learning, Member} \hfill 11/2023
+\begin{itemize}
+    \item Completed a plant biodiversity survey and learned how to protect plants, such as by controlling pests and diseases, as well as fertilization and weeding techniques and how to cook local dishes.
+\end{itemize}
+
+\section{Volunteer Activities}
+\noindent \textbf{Shanghai Aerospace Enthusiasts Center, Volunteer} \hfill 06/2023 - 08/2023
+\begin{itemize}
+    \item Assisted staff in maintaining order during weekends and summer vacations; Served as a tour guide and TA in activities like flying simulation and making plane models; Explained theory of various machines to primary school students visited the center, to them.
+\end{itemize}
+\noindent \textbf{Shanghai No. 2 High School-Campus Open Day, Volunteer} \hfill 06/2023
+\begin{itemize}
+    \item Introduced school's history, campus life, club activities and useful tips; Talked about what school's STEM program involved; Showed my program work - a robotic car using autonomous driving algorithms to move.
+\end{itemize}
+
+\section{Honors \& Awards}
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+\textbf{Third Prize, `China Middle School Cup' Youth AI Competition} & \hfill 12/2023 \\
+\textbf{Second Prize, Wuben Scholarship, Shanghai No.2 High School} & \hfill 06/2024 \\
+\textbf{Outstanding Student Union Cadre, Shanghai No.2 High School} & \hfill 12/2023 \\
+\textbf{Third Prize, Drone Obstacle Flight Racing, School Science Festival} & \hfill 05/2024 \\
+\end{tabularx}
+
+\section{Skills \& Hobbies}
+\begin{itemize}
+    \item Self-study “Dive into Deep Learning”, a textbook of UCB(Learned basic algorithms of modern AI and the procedure to train an AI model)
+    \item \textbf{Programming Skill:} Python, C++
+    \item \textbf{Hobbies:} Swimming, Photography
+\end{itemize}
+
+
+
+% %----------------------------------------------------------------------------------------
+% % EXPERIENCE SECTIONS
+% %----------------------------------------------------------------------------------------
+
+% %Interests/ Keywords/ Summary
+% \section{Summary}
+% This CV can also be automatically compiled and published using GitHub Actions. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
+
+% %Experience
+% \section{Work Experience}
+
+% \begin{jobshort}{Designation}{Jan 2021 - present}
+% long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
+% \end{jobshort}
+
+
+% \begin{joblong}{Designation}{Mar 2019 - Jan 2021}
+% \item long long line of blah blah that will wrap when the table fills the column width
+% \item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
+% \end{joblong}
+  
+% %Projects
+% \section{Projects}
+
+% \begin{tabularx}{\linewidth}{ @{}l r@{} }
+% \textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
+% \multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+% \end{tabularx}
+
+% %----------------------------------------------------------------------------------------
+% %	EDUCATION
+% %----------------------------------------------------------------------------------------
+% \section{Education}
+% \begin{tabularx}{\linewidth}{@{}l X@{}}	
+% 2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
+
+% 2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
+
+% 2022 & Class 12th Some Board \hfill  (Grades) \\
+
+% 2021 & Class 10th Some Board \hfill  (Grades) \\
+% \end{tabularx}
+
+% %----------------------------------------------------------------------------------------
+% %	PUBLICATIONS
+% %----------------------------------------------------------------------------------------
+% \section{Publications}
+% \begin{refsection}[citations.bib]
+% \nocite{*}
+% \printbibliography[heading=none]
+% \end{refsection}
+
+% %----------------------------------------------------------------------------------------
+% %	SKILLS
+% %----------------------------------------------------------------------------------------
+% \section{Skills}
+% \begin{tabularx}{\linewidth}{@{}l X@{}}
+% Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
+% Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+% \end{tabularx}
+
+\vfill
+\center{\footnotesize Last updated: \today}
+
+\end{document}
