@@ -3,8 +3,8 @@ entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/kinghua/myCV/cv-1
-(/Users/kinghua/myCV/cv-1.tex
+**/Users/kinghua/myCV/cv
+(/Users/kinghua/myCV/cv.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
 (/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -566,8 +566,9 @@ LaTeX Font Info:    Trying to load font information for TU+fontawesomebrands on 
  (/usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome5/tufontawesomebrands.fd)))
 \@quotelevel=\count441
 \@quotereset=\count442
- (./cv-1.aux)
-\openout1 = `cv-1.aux'.
+
+No file cv.aux.
+\openout1 = `cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
 LaTeX Font Info:    ... okay on input line 129.
@@ -589,7 +590,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
 LaTeX Font Info:    ... okay on input line 129.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 129.
 LaTeX Font Info:    ... okay on input line 129.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -633,42 +633,72 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `cv-1.bcf'.
+\openout3 = `cv.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'cv-1.bbl' found.
- (./cv-1.bbl)
+Package biblatex Info: ... file 'cv.bbl' not found.
+
+No file cv.bbl.
 Package biblatex Info: Reference section=0 on input line 129.
 Package biblatex Info: Reference segment=0 on input line 129.
 Package hyperref Info: Link coloring ON on input line 129.
- (./cv-1.out) (./cv-1.out)
 \@outlinefile=\write4
-\openout4 = `cv-1.out'.
-
+\openout4 = `cv.out'.
 
 
 Package hyperref Warning: Rerun to get /PageLabels entry.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--173
+
+ []
+
+\blx@maxsegment@1=\count443
+\blx@sectionciteorder@1=\count444
+Package biblatex Info: Reference section=1 on input line 200.
+Package biblatex Info: Setting label 'refsection:1' on input line 200.
+
+LaTeX Warning: Empty bibliography on input line 202.
+
+Package biblatex Info: Reference section=0 on input line 203.
 [1
 
-] [2] (./cv-1.aux)
+] (./cv.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
-Package rerunfilecheck Info: File `cv-1.out' has not changed.
-(rerunfilecheck)             Checksum: 39EAAC8F4780C8A0DD465F8875D45DB8;816.
-Package logreq Info: Writing requests to 'cv-1.run.xml'.
-\openout1 = `cv-1.run.xml'.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `cv.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `cv.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D973FBA3EB089568E31074C0EBD68707;546.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                cv
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'cv.run.xml'.
+\openout1 = `cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18909 strings out of 467992
- 323995 string characters out of 5429468
- 1222386 words of memory out of 5000000
- 47615 multiletter control sequences out of 15000+600000
+ 18917 strings out of 467992
+ 324309 string characters out of 5429468
+ 1222306 words of memory out of 5000000
+ 47631 multiletter control sequences out of 15000+600000
  630881 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,9n,84p,1213b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 62i,9n,84p,1211b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cv-1.pdf (2 pages).
+Output written on cv.pdf (1 page).
