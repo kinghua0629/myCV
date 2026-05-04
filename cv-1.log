@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.17)  27 APR 2026 15:10
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.17)  4 MAY 2026 16:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -474,7 +474,7 @@ Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 )) (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
  (/usr/local/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
@@ -496,25 +496,25 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 \Hy@linkcounter=\count429
 \Hy@pagecounter=\count430
  (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count431
  (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4072.
-Package hyperref Info: Option `draft' set `false' on input line 4072.
-Package hyperref Info: Hyper figures OFF on input line 4201.
-Package hyperref Info: Link nesting OFF on input line 4206.
-Package hyperref Info: Hyper index ON on input line 4209.
-Package hyperref Info: Plain pages OFF on input line 4216.
-Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Option `unicode' set `true' on input line 4070.
+Package hyperref Info: Option `draft' set `false' on input line 4070.
+Package hyperref Info: Hyper figures OFF on input line 4199.
+Package hyperref Info: Link nesting OFF on input line 4204.
+Package hyperref Info: Hyper index ON on input line 4207.
+Package hyperref Info: Plain pages OFF on input line 4214.
+Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4468.
+Package hyperref Info: Bookmarks ON on input line 4466.
 \c@Hy@tempcnt=\count432
-LaTeX Info: Redefining \url on input line 4807.
+LaTeX Info: Redefining \url on input line 4805.
 \XeTeXLinkMargin=\dimen195
  (/usr/local/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -524,20 +524,20 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 \Fld@menulength=\count433
 \Field@Width=\dimen196
 \Fld@charsize=\dimen197
-Package hyperref Info: Hyper figures OFF on input line 6084.
-Package hyperref Info: Link nesting OFF on input line 6089.
-Package hyperref Info: Hyper index ON on input line 6092.
-Package hyperref Info: backreferencing OFF on input line 6099.
-Package hyperref Info: Link coloring OFF on input line 6104.
-Package hyperref Info: Link coloring with OCG OFF on input line 6109.
-Package hyperref Info: PDF/A mode OFF on input line 6114.
+Package hyperref Info: Hyper figures OFF on input line 6091.
+Package hyperref Info: Link nesting OFF on input line 6096.
+Package hyperref Info: Hyper index ON on input line 6099.
+Package hyperref Info: backreferencing OFF on input line 6106.
+Package hyperref Info: Link coloring OFF on input line 6111.
+Package hyperref Info: Link coloring with OCG OFF on input line 6116.
+Package hyperref Info: PDF/A mode OFF on input line 6121.
 \Hy@abspage=\count434
 \c@Item=\count435
 \c@Hfootnote=\count436
 )
 Package hyperref Info: Driver (autodetected): hxetex.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
+File: hxetex.def 2026-04-24 v7.01q Hyperref driver for XeTeX
 \pdfm@box=\box104
 \c@Hy@AnnotLevel=\count437
 \HyField@AnnotCount=\count438
@@ -554,16 +554,16 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 90.
 Package hyperref Info: Option `breaklinks' set `true' on input line 90.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
-Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome7/fontawesome7.sty
+Package: fontawesome7 2025/11/02 v7.1.0-1 Font Awesome 7
  (/usr/local/texlive/2026/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome5/fontawesome5-utex-helper.sty
-Package: fontawesome5-utex-helper 2022/05/02 v5.15.4 uTeX helper for fontawesome5
-LaTeX Font Info:    Trying to load font information for TU+fontawesomefree on input line 69.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome5/tufontawesomefree.fd)
-LaTeX Font Info:    Trying to load font information for TU+fontawesomebrands on input line 70.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome5/tufontawesomebrands.fd)))
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome7/fontawesome7-utex-helper.sty
+Package: fontawesome7-utex-helper 2025/11/02 v7.1.0-1 uTeX helper for fontawesome7
+LaTeX Font Info:    Trying to load font information for TU+fontawesome7free on input line 63.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome7/tufontawesome7free.fd)
+LaTeX Font Info:    Trying to load font information for TU+fontawesome7brands on input line 64.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome7/tufontawesome7brands.fd)))
 \@quotelevel=\count441
 \@quotereset=\count442
  (./cv-1.aux)
@@ -659,12 +659,12 @@ Package logreq Info: Writing requests to 'cv-1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18908 strings out of 467992
- 323959 string characters out of 5429468
- 1222402 words of memory out of 5000000
- 47614 multiletter control sequences out of 15000+600000
+ 19321 strings out of 467992
+ 331760 string characters out of 5429468
+ 1231739 words of memory out of 5000000
+ 48026 multiletter control sequences out of 15000+600000
  630881 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,9n,84p,1213b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 61i,9n,84p,1213b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on cv-1.pdf (2 pages).
