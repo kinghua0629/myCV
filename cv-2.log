@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.3)  6 SEP 2026 23:42
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.3)  6 SEP 2026 23:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/kinghua/myCV/cv-1
-(/Users/kinghua/myCV/cv-1.tex
+**/Users/kinghua/myCV/cv-2
+(/Users/kinghua/myCV/cv-2.tex
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-08-10>
 (/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -566,8 +566,9 @@ LaTeX Font Info:    Trying to load font information for TU+fontawesome7brands on
  (/usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome7/tufontawesome7brands.fd)))
 \@quotelevel=\count443
 \@quotereset=\count444
- (./cv-1.aux)
-\openout1 = `cv-1.aux'.
+
+No file cv-2.aux.
+\openout1 = `cv-2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
 LaTeX Font Info:    ... okay on input line 130.
@@ -589,7 +590,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
 LaTeX Font Info:    ... okay on input line 130.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
 LaTeX Font Info:    ... okay on input line 130.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -633,38 +633,56 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `cv-1.bcf'.
+\openout3 = `cv-2.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'cv-1.bbl' found.
- (./cv-1.bbl)
+Package biblatex Info: ... file 'cv-2.bbl' found.
+ (./cv-2.bbl)
 Package biblatex Info: Reference section=0 on input line 130.
 Package biblatex Info: Reference segment=0 on input line 130.
 Package hyperref Info: Link coloring ON on input line 130.
- (./cv-1.out) (./cv-1.out)
 \@outlinefile=\write4
-\openout4 = `cv-1.out'.
+\openout4 = `cv-2.out'.
 
- [1
 
-] [2] (./cv-1.aux)
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+[1
+
+] [2] (./cv-2.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-08-10>
  ***********
-Package rerunfilecheck Info: File `cv-1.out' has not changed.
-(rerunfilecheck)             Checksum: 0ED2932821DDAF9BB6E7962341F93F41;909.
-Package logreq Info: Writing requests to 'cv-1.run.xml'.
-\openout1 = `cv-1.run.xml'.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `cv-2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `cv-2.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  0ED2932821DDAF9BB6E7962341F93F41;909.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                cv-2
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'cv-2.run.xml'.
+\openout1 = `cv-2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19509 strings out of 467745
- 333894 string characters out of 5422258
- 1238139 words of memory out of 5000000
- 48462 multiletter control sequences out of 15000+600000
+ 19500 strings out of 467745
+ 333796 string characters out of 5422258
+ 1238056 words of memory out of 5000000
+ 48459 multiletter control sequences out of 15000+600000
  630881 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  61i,8n,84p,1213b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cv-1.pdf (2 pages).
+Output written on cv-2.pdf (2 pages).
