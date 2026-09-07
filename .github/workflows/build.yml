@@ -20,6 +20,8 @@ jobs:
           root_file: |
             cv.tex
             cv-1.tex
+            cv-2.tex
+            cv-high-school.tex
           texlive_version: 2026
           working_directory: ${{ env.DIR }}
           latexmk_use_xelatex: true
