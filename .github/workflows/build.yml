@@ -26,7 +26,7 @@ jobs:
           working_directory: ${{ env.DIR }}
           latexmk_use_xelatex: true
       - name: move
-        run: mkdir -p github_artifacts && mv ${{ env.DIR }}/cv.pdf ./github_artifacts/ && mv ${{ env.DIR }}/cv-1.pdf ./github_artifacts/
+        run: mkdir -p github_artifacts && mv ${{ env.DIR }}/cv.pdf ./github_artifacts/ && mv ${{ env.DIR }}/cv-1.pdf ./github_artifacts/ && mv ${{ env.DIR }}/cv-2.pdf ./github_artifacts/ && mv ${{ env.DIR }}/cv-high-school.pdf ./github_artifacts/
       - name: Upload pdf as artifact
         uses: actions/upload-artifact@v7
         with:
